@@ -73,7 +73,7 @@ a{color:inherit}
 /* ============ PRODUCT ============ */
 .product{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
 .product__art{display:flex;justify-content:center}
-.product__art svg{width:min(100%,240px)}
+.product__art svg{width:auto;height:clamp(300px,42vh,400px);max-width:100%}
 .product__copy .eyebrow{display:block;margin-bottom:18px}
 .features{list-style:none;padding:0;margin-top:30px}
 .features li{font-family:var(--serif);font-size:1.3rem;padding:16px 0;border-bottom:1px solid var(--line);color:var(--ink)}
